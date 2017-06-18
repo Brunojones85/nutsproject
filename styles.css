@@ -10,6 +10,7 @@ body{
 	overflow-x: hidden;
 	overflow-y: scroll;
 	perspective: 1px;
+
 }
 
 h1 {
@@ -19,12 +20,12 @@ h1 {
 }
 
 #secao1 {
-	background-image: url(../imagens/369826.jpg);
+	background-image: url(imagens/369826.jpg);
 	background-size: cover;
 }
 
 #secao2 {
-	background: ##7e665b;
+	background-image: url(imagens/castanha-tipica.jpg);
 	transform: translateZ(-1px) scale(2);
 	z-index: -1;
 }
@@ -38,4 +39,40 @@ h1 {
 	box-shadow: 0 -1px 10px rgba(0,0,0, .7);
 	transform-style: inherit;
 }
+
+.container {
+    display: flex;
+  /*  align-items: left;
+    justify-content: space-between;*/
+
+}
+
+.social {
+    position: absolute;
+    top: 11px;
+    right: 0;
+    align-items: center;
+}
+
+.nav a {
+	flex-grow: 1;
+	background: ##7e665b;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 20px;
+	border: 2px solid white;
+}
+
+.container .social {
+	display:flex;
+
+}
+
+
+
+
+
+
+
 
