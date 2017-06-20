@@ -13,10 +13,10 @@ body{
 
 }
 
-h1 {
+h1{
 	text-align: center;
-	font-size: 400px;
-	color: #7e665b;
+	font-size: 90px;
+	color: #5a3b2b;
 }
 
 #secao1 {
@@ -25,14 +25,14 @@ h1 {
 }
 
 #secao2 {
-	background-image: url(imagens/castanha-tipica.jpg);
+	background-color: #7e665b;
 	transform: translateZ(-1px) scale(2);
 	z-index: -1;
 }
 
 .slide {
 	position: relative;
-	padding: 25% 10%;
+	padding: 20% 10%;
 	min-height: 100%;
 	width: 100%;
 	box-sizing: border-box;
@@ -40,35 +40,28 @@ h1 {
 	transform-style: inherit;
 }
 
-.container {
-    display: flex;
-  /*  align-items: left;
-    justify-content: space-between;*/
-
+footer {
+	position: fixed;
+	width: 100%;
 }
 
 .social {
-    position: absolute;
-    top: 11px;
-    right: 0;
-    align-items: center;
+    display: inline-flex;
+    margin-left: 500px;
 }
 
-.nav a {
-	flex-grow: 1;
-	background: ##7e665b;
+.social li {
+	margin-left: 20px;
+}
+
+nav a {
+	background: #5a3b2b;
 	color: white;
 	text-decoration: none;
 	text-align: center;
-	padding: 20px;
-	border: 2px solid white;
+	padding: 10px;
+	border: 80px #5a3b2b;
 }
-
-.container .social {
-	display:flex;
-
-}
-
 
 
 
