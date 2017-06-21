@@ -10,13 +10,29 @@ body{
 	overflow-x: hidden;
 	overflow-y: scroll;
 	perspective: 1px;
+	text-decoration: none;
 
 }
 
-h1{
+h1 {
 	text-align: center;
 	font-size: 90px;
 	color: #5a3b2b;
+	text-shadow: 4px 4px 4px #FFF;
+}
+
+
+h2 {
+	text-align: center;
+	color: #5a3b2b;
+	text-shadow: 4px 4px 4px #FFF;
+
+}
+
+section a {
+	text-align: center;
+	padding: 28px 355px;
+	font-size: 40px;
 }
 
 #secao1 {
@@ -43,11 +59,17 @@ h1{
 footer {
 	position: fixed;
 	width: 100%;
+	margin-top: 200px;
+	padding: black;
+
 }
 
 .social {
     display: inline-flex;
     margin-left: 500px;
+    text-decoration: none;
+	text-transform: none;
+	list-style-type: none;
 }
 
 .social li {
@@ -62,6 +84,8 @@ nav a {
 	padding: 10px;
 	border: 80px #5a3b2b;
 }
+
+
 
 
 
