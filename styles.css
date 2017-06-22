@@ -5,6 +5,7 @@ html{
 
 body{
 	margin: 0;
+	/*width: 80%;*/
 	padding: 0;
 	height: 100%;
 	overflow-x: hidden;
@@ -29,11 +30,11 @@ h2 {
 
 }
 
-section a {
+/*section a {
 	text-align: center;
 	padding: 28px 355px;
 	font-size: 40px;
-}
+}*/
 
 #secao1 {
 	background-image: url(imagens/369826.jpg);
@@ -41,7 +42,7 @@ section a {
 }
 
 #secao2 {
-	background-color: #7e665b;
+	background-color: white;
 	transform: translateZ(-1px) scale(2);
 	z-index: -1;
 }
@@ -56,12 +57,20 @@ section a {
 	transform-style: inherit;
 }
 
-footer {
-	position: fixed;
-	width: 100%;
-	margin-top: 200px;
-	padding: black;
+/*.conteiner{
+    display: flex;
+}
+*/
+/*.conteiner a {
+	display: flex;
 
+}*/
+
+.conteiner div img{
+    width: 170px;
+    height: 170px;
+    margin-top: 21px;
+    margin-right: 10px;
 }
 
 .social {
@@ -73,9 +82,9 @@ footer {
 }
 
 .social li {
-	margin-left: 20px;
+	margin-left: 100%;
 }
-
+/*
 nav a {
 	background: #5a3b2b;
 	color: white;
@@ -85,10 +94,14 @@ nav a {
 	border: 80px #5a3b2b;
 }
 
+*/
 
-
-
-
+footer {
+	position: fixed;
+	width: 100%;
+	margin-top: 200px;
+	padding: black;
+}
 
 
 
