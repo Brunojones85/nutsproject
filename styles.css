@@ -12,21 +12,41 @@ body{
 	overflow-y: scroll;
 	perspective: 1px;
 	text-decoration: none;
+	background-color: black;
 
+}
+
+a{
+	color: black;
+	decoration: none;
+	text-decoration: none;
+}
+
+a:hover{
+	color: black;
+	decoration: none;
+	text-decoration: none;
+}
+
+a:active{
+	decoration: none;
+	text-decoration: none;
 }
 
 h1 {
 	text-align: center;
 	font-size: 90px;
 	color: #5a3b2b;
-	text-shadow: 4px 4px 4px #FFF;
+	text-shadow: 2px 2px 2px #FFF;
+	font-family: 'Lobster', cursive;
 }
 
 
 h2 {
 	text-align: center;
-	color: #5a3b2b;
-	text-shadow: 4px 4px 4px #FFF;
+	color: white;
+	text-shadow: 1px 1px 1px #FFF;
+	font-family: 'Josefin Sans', sans-serif;
 
 }
 
@@ -37,8 +57,10 @@ h2 {
 }*/
 
 #secao1 {
+
 	background-image: url(imagens/369826.jpg);
 	background-size: cover;
+	align-items: center;
 }
 
 #secao2 {
@@ -66,11 +88,29 @@ h2 {
 
 }*/
 
-.conteiner div img{
-    width: 130px;
-    height: 130px;
-    margin-top: 21px;
+.container div img{
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
     margin-right: 10px;
+}
+
+.teste{
+	text-align: center;
+}
+
+/*#botao-entrar{
+	background-color: transparent;
+	border: 1px solid black;
+
+}*/
+
+#teste{
+	background: transparent;
+}
+
+#teste:hover{
+	background: #ff9933;
 }
 
 .social {
@@ -97,12 +137,60 @@ nav a {
 */
 
 footer {
-	position: fixed;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: black;
 	width: 100%;
-	margin-top: 200px;
-	padding: black;
+	margin-bottom: auto;
+	z-index: -1;
 }
 
+/*#Btn-inicio {
+	margin-left: 323px;*/
 
+}
+.btn{
+	padding: 12px 60px;
+	background-color: transparent;
+	border: 3px solid black;
+}
+.btn-warning{
+	padding: 12px 60px;
+	font-size: 16px;
+}
 
+.imagem:hover{
+	transform: scale(1.1);
+}
 
+/*#rodape{
+	margin: 10px;
+	background-image: url("imagens/5126368-nuts.jpg")*/
+
+}
+#item1{
+	margin-top: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+}
+#produtos {
+	margin-right: 200px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: black;
+	font-size: 25px;
+}
+#precoprodutos{
+	font-family: 'Chewy', cursive;
+	font-size: 30px;
+	color: #ff9933;
+}
+.prod1{
+	text-align: center;
+}
+#GAMB{
+	/*background-color: white;*/
+	color: white;
+	margin-left:
+}
